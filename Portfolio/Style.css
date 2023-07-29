@@ -1,0 +1,291 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the header */
+header {
+    text-align: center;
+    background-color: #333; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    padding: 1rem;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+header img {
+    width: 100px; /* Adjust the image size as needed */
+    height: 100px; /* Ensure width and height are the same for a perfect circle */
+    object-fit: cover;
+    border: 2px solid #fff; /* Optional: Add a border around the circular image */
+}
+
+header h1 {
+    
+    font-size: 2rem;
+    margin-top: 10px; /* Add some spacing between the image and the heading */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px; /* Add some spacing between the heading and the paragraph */
+}
+
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+/* Container styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+}
+
+/* Project styles */
+.project {
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+/* Circular profile image */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.about-content button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.about-content button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile-image {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 4px solid #fff; /* Optional: Add a border around the image */
+}
+
+/* Additional CSS styles for the "Projects" section */
+.project {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #0057ff;
+    margin-bottom: 10px;
+}
+
+.project h4 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.project-image {
+    text-align: center;
+}
+
+.project-image img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional CSS styles for the "CV" section */
+#cv {
+    background-color: #ffffff; /* Change the background color to your preference */
+    max-width: 600px; /* Adjust the maximum width to your preference */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cv h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cv-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cv-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.cv-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-decoration: none;
+}
+
+.skillImg{
+    width: 10rem;
+    height: 10rem;
+}
+
+/* Additional styles for the download button */
+.container button {
+    /* Your existing button styles */
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.container button a {
+    /* Your existing button link styles */
+    color: #fff;
+    text-decoration: none;
+}
+
+.container button:hover {
+    /* Your existing button hover styles */
+    background-color: #0056b3;
+}
+
+/* Additional styles for the download link */
+.container a {
+    display: inline-block; /* To make the link act as a block-level element */
+    margin-top: 10px; /* Add some spacing between the CV content and the button */
+}
+
+/* Additional CSS styles for the "Contact" section */
+#contact {
+    background-color: #ffeeea; /* Change the background color to a light pinkish color */
+    max-width: 600px; /* Reduce the maximum width to 600px */
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.info_contact h6 {
+    font-size: 1rem;
+    color: #555;
+}
+
+.social_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.social_box a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Add your other styles here */
+
+/* Add your additional CSS styles here */
+/* Additional CSS styles for the "Skills" section */
